@@ -20,5 +20,33 @@
             </tr>
 
         </table>
+        <div class="jb-form-search">
+									
+            <div class="jb-form-search-table">
+                <div class="jb-form-search-table-row">
+                    <div class="jb-form-search-table-cell jb-form-search-table-cell-input">
+                        <input type="text" name="search" value="" onkeypress="if (event.keyCode == 13) { try{window.location.href='/search/'+looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value='';return false;}catch(e){} }" placeholder="Search..." class="jb-form-input-text">
+                    </div>
+                    <div class="jb-form-search-table-cell jb-form-search-table-cell-button">
+                        <button type="button" onclick="try{window.location.href='/search/'+looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value='';return false;}catch(e){}" class="jb-form-button"><i class="fa fa-search fa-fw"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="jb-header-table-cell jb-header-table-cell-site-title">
+                <div class="jb-header-mobile-table">
+                  <div class="jb-header-mobile-table-row">
+                    <div class="jb-header-mobile-table-cell jb-header-mobile-table-cell-site-title">
+                      <header>
+                        <h1 class="jb-site-title"><a href="/">test</a></h1>
+												<!--<h1 class="jb-site-title-image"><a href="/"><img src="https://tistory1.daumcdn.net/tistory/3164101/skin/images/jb-logo.png" alt=""></a></h1>-->
+                      </header>
+                    </div>
+                    <div class="jb-header-mobile-table-cell jb-header-mobile-table-cell-bars">
+                      <div class="jb-bars"><img src="https://tistory1.daumcdn.net/tistory/3164101/skin/images/ic_menu_black_48dp_2x.png" alt=""></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </div>
     </body>
 </html>
